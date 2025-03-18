@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+/* body  */
+body {
+    font-family: Arial, sans-serif;
+}
 /* Header */
 .page-head {
     padding: 15px 20px;
@@ -22,19 +26,21 @@ header img {
 
 /* Main */
 .container {
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     background-color: antiquewhite;
+    background-color:rgb(242, 249, 249);
 }
 .operations-list {
     margin-top: 50px;
+    padding: 10px;
 }
 .operations-list a {
     text-decoration: none;
     border: 1px solid;
     border-radius: 10px;
-    padding: 8px 10px;
-    font-size: 15px;
+    padding: 7px 15px;
+    font-size: 12px;
     display: inline-block;
 }
 
@@ -49,6 +55,7 @@ header img {
 
 ul h2 {
     display: inline-block;
+    font-size: 20px;
     
 }
 
