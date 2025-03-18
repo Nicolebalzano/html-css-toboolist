@@ -3,37 +3,108 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* Header */
 .page-head {
     padding: 15px 20px;
     background-color: rgb(242, 249, 249);
 }
+
 header img {
     vertical-align: middle;
 }
+
 .header-title {
     font-weight: 900;
     display: inline;
     vertical-align: middle;
 }
+
 /* Main */
 .container {
     width: 50%;
     margin: 0 auto;
-    background-color: rgb(242, 249, 249);
+    background-color: antiquewhite;
+}
+.operations-list {
     margin-top: 50px;
 }
 .operations-list a {
-  text-decoration: none;
-  border: 1px solid;
-  border-radius: 10px;
-  padding: 8px 10px;
-  font-size: 15px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px 10px;
+    font-size: 15px;
+    display: inline-block;
 }
+
 .add-task {
-    background-color: rgb(39, 107, 255);
+    background-color: rgb(30, 144, 255);;
     color: white;
 }
+
 .add-section {
     color: rgb(173, 173, 173);
 }
+
+ul h2 {
+    display: inline-block;
+    
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid green;
+    display: inline-block;
+    margin-right:10px;
+}
+.check {
+    color: green;
+    border-color: green;
+    vertical-align: middle;
+    line-height: 15px;
+    padding: 3px;
+    font-size: 13px;
+}
+.cross {
+    color: red;
+    border-color: red;
+    vertical-align: middle;
+    line-height: 15px;
+    padding: 3px;
+    font-size: 13px;
+}
+.task-list {
+    list-style-type: none;
+}
+.etichetta {
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 4px;
+    font-size: 13px;
+    color: white;
+}
+.blue-label {
+    background-color:rgb(30, 144, 255) ;
+}
+.viola-label {
+    background-color: rgb(156, 114, 228);
+}
+.verde-label {
+    background-color: rgb(0, 255, 0);
+}
+.rosa-label {
+    background-color:rgb(216, 99, 161) ;
+}
+.giallo-label {
+    background-color:rgb(176, 201, 38) ;
+}
+.arancione-label {
+    background-color:rgb(242, 158, 51) ;
+}
+
+
+
+
