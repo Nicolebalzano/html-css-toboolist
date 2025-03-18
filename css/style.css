@@ -31,9 +31,13 @@ header img {
     background-color: antiquewhite;
     background-color:rgb(242, 249, 249);
 }
+.to-do {
+    padding:25px 30px;
+}
 .operations-list {
     margin-top: 50px;
-    padding: 10px;
+    padding: 10px 30px;
+    border-bottom: 3px solid white;
 }
 .operations-list a {
     text-decoration: none;
@@ -43,7 +47,6 @@ header img {
     font-size: 12px;
     display: inline-block;
 }
-
 .add-task {
     background-color: rgb(30, 144, 255);;
     color: white;
@@ -53,6 +56,9 @@ header img {
     color: rgb(173, 173, 173);
 }
 
+li{
+    padding: 6px;
+}
 ul h2 {
     display: inline-block;
     font-size: 20px;
@@ -89,7 +95,7 @@ ul h2 {
 .etichetta {
     margin-left: 10px;
     border-radius: 10px;
-    padding: 4px;
+    padding: 6px 12px;
     font-size: 13px;
     color: white;
 }
@@ -100,7 +106,7 @@ ul h2 {
     background-color: rgb(156, 114, 228);
 }
 .verde-label {
-    background-color: rgb(0, 255, 0);
+    background-color: rgb(91, 160, 91);
 }
 .rosa-label {
     background-color:rgb(216, 99, 161) ;
